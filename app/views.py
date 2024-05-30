@@ -11,9 +11,6 @@ from scipy.special import softmax
 from apify_client import ApifyClient
 import json
 
-tokenAPIFY = "apify_api_a2e0KjovD77m4nWfCyjpuf7j5yDnac3wf8Y7"
-Bearer_Token = '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'
-picPurify = "wa5U1a5PLq0tPhvthpBcDxe7Mb0jRunC"
 
 class WebPurify(APIView):
     def post(self, request):
